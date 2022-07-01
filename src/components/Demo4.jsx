@@ -8,10 +8,9 @@ import cities from "../data/cities.json";
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
-  iconUrl: require("leaflet/dist/images/marker-icon.png"),
-  //   iconUrl: require("../icons/eversidelogo.png"),
-  iconSize: [64, 64],
+  iconRetinaUrl: require("../icons/eversidebig.png"),
+  iconUrl: require("../icons/eversidesmall.png"),
+  iconSize: [20, 30],
 
   shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
 });
