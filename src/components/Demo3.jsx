@@ -20,7 +20,8 @@ const Demo3 = () => {
         <MapContainer center={koraCenter} zoom={zoom}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
           />
 
           <Polygon positions={sixthmain} color="red" weight={5} opacity={0.8} />
